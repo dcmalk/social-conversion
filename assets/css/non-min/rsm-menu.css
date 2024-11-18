@@ -1,0 +1,42 @@
+/**
+ * RSM Admin Menu CSS
+ *
+ * @package     RSM
+ * @subpackage  Admin CSS
+ * @copyright   Copyright (c) 2017, Damon Malkiewicz
+ * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
+*/
+
+/* https://jeffclayton.wordpress.com/2014/07/22/the-chrome-and-safari-css-hacks-collection/
+   http://stackoverflow.com/questions/16348489/is-there-a-css-hack-for-safari-only-not-chrome
+   http://browserstrangeness.bitbucket.org/css_hacks.html#safari
+   http://stackoverflow.com/questions/814219/how-does-one-target-ie7-and-ie8-with-valid-css */
+
+/* Win Chrome 29 (and Opera 16) */
+@supports (-webkit-hyphens: auto) and (justify-content: inherit) {
+  .rsm-spacing-fix {
+    letter-spacing: -0.08em !important;
+  }
+}
+
+/* OS X Chrome 22-28 */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .rsm-spacing-fix {
+    letter-spacing: -0.08em !important;
+  }
+}
+
+/* Safari 5.1-6.0, Chrome 10-23 */
+@media screen and (min-width: 1px) and (-webkit-min-device-pixel-ratio: 0) {
+  _::-moz-svg-foreign-content,
+  .rsm-spacing-fix {
+    letter-spacing: -0.08em !important;
+  }
+}
+
+/* IE 8 */
+@media \0screen {
+  .rsm-spacing-fix {
+    letter-spacing: -0.08em !important;
+  }
+}

@@ -1,0 +1,12 @@
+/**
+ * RSM Admin IE CSS
+ *
+ * @package     RSM
+ * @subpackage  Admin CSS
+ * @copyright   Copyright (c) 2017, Damon Malkiewicz
+ * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
+*/
+
+#wpcontent {
+  margin-right: 16px !important;
+}

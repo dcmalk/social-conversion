@@ -1,0 +1,19 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore vendor dependencies
+/vendor/
+
+# Ignore environment files
+.env
+
+# Ignore IDE and editor files
+.idea/
+*.swp
+
+# Ignore log files
+*.log
+
+# Ignore compiled files
+/cache/

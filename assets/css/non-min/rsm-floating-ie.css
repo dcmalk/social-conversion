@@ -1,0 +1,15 @@
+/**
+ * RSM Floating Button IE CSS
+ *
+ * @package     RSM
+ * @subpackage  Admin CSS
+ * @copyright   Copyright (c) 2017, Damon Malkiewicz
+ * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
+*/
+
+.rsm-floating-left {
+  left: 20px !important;
+}
+.rsm-floating-right {
+  right: 20px !important;
+}
